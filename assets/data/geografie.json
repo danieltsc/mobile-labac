@@ -1,0 +1,668 @@
+{
+  "version": "1.1.0",
+  "topics": [
+    {
+      "id": "geo-relief",
+      "subject": "geografie",
+      "title": "Relieful României",
+      "summary": "Structura reliefului național și distribuția treptelor altitudinale.",
+      "contentMdPath": "assets/content/geo/relief.md",
+      "tags": ["Relief", "Carpați", "Subcarpați"]
+    },
+    {
+      "id": "geo-clima",
+      "subject": "geografie",
+      "title": "Clima României",
+      "summary": "Factorii climatici și tipurile de climă întâlnite în țară.",
+      "contentMdPath": "assets/content/geo/clima.md",
+      "tags": ["Climă", "Temperaturi", "Precipitații"]
+    },
+    {
+      "id": "geo-hidrografie",
+      "subject": "geografie",
+      "title": "Hidrografia României",
+      "summary": "Rețeaua hidrografică principală: Dunărea, fluviile și lacurile.",
+      "contentMdPath": "assets/content/geo/hidrografie.md",
+      "tags": ["Dunărea", "Râuri", "Lacuri"]
+    },
+    {
+      "id": "geo-populatie",
+      "subject": "geografie",
+      "title": "Populația și așezările",
+      "summary": "Structura demografică și distribuția așezărilor urbane și rurale.",
+      "contentMdPath": "assets/content/geo/populatie.md",
+      "tags": ["Demografie", "Urbane", "Rurale"]
+    },
+    {
+      "id": "geo-economie",
+      "subject": "geografie",
+      "title": "Regiuni economice și resurse",
+      "summary": "Principalele regiuni economice și resursele lor specifice.",
+      "contentMdPath": "assets/content/geo/economie.md",
+      "tags": ["Resurse", "Regiuni", "Industrie"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "geo-relief-1",
+      "subject": "geografie",
+      "topics": ["geo-relief"],
+      "kind": "single",
+      "stem": "Care este cel mai înalt vârf din Carpații Meridionali?",
+      "choices": [
+        { "id": "a", "text": "Moldoveanu" },
+        { "id": "b", "text": "Omu" },
+        { "id": "c", "text": "Negoiu" },
+        { "id": "d", "text": "Pietrosul Rodnei" }
+      ],
+      "correctChoiceIds": ["a"],
+      "explanation": "Vârful Moldoveanu (2544 m) din Masivul Făgăraș este cel mai înalt din Carpații Meridionali."
+    },
+    {
+      "id": "geo-relief-2",
+      "subject": "geografie",
+      "topics": ["geo-relief"],
+      "kind": "multiple",
+      "stem": "Selectează formele de relief caracteristice Subcarpaților.",
+      "choices": [
+        { "id": "a", "text": "Dealuri piemontane" },
+        { "id": "b", "text": "Culmi deluroase paralele" },
+        { "id": "c", "text": "Câmpii aluviale" },
+        { "id": "d", "text": "Depresiuni intramontane" }
+      ],
+      "correctChoiceIds": ["a", "b"],
+      "explanation": "Subcarpații se caracterizează prin dealuri piemontane și culmi paralele, separate de depresiuni longitudinale."
+    },
+    {
+      "id": "geo-relief-3",
+      "subject": "geografie",
+      "topics": ["geo-relief"],
+      "kind": "short",
+      "stem": "Menționează o unitate de relief joasă din România.",
+      "correctShortAnswer": ["campia romana", "campia romaniei", "campia de vest", "campia panonica"],
+      "explanation": "România are mai multe unități de relief joase, precum Câmpia Română sau Câmpia de Vest."
+    },
+    {
+      "id": "geo-clima-1",
+      "subject": "geografie",
+      "topics": ["geo-clima"],
+      "kind": "single",
+      "stem": "Ce tip de climă domină în România?",
+      "choices": [
+        { "id": "a", "text": "Climă mediteraneană" },
+        { "id": "b", "text": "Climă continental-moderată" },
+        { "id": "c", "text": "Climă oceanică" },
+        { "id": "d", "text": "Climă polară" }
+      ],
+      "correctChoiceIds": ["b"],
+      "explanation": "România are în principal un climat continental moderat, influențat de poziția geografică și de relief."
+    },
+    {
+      "id": "geo-clima-2",
+      "subject": "geografie",
+      "topics": ["geo-clima"],
+      "kind": "short",
+      "stem": "Numește doi factori care influențează clima României.",
+      "correctShortAnswer": ["latitudinea si relieful", "latitudine relieful", "relief si masele de aer", "relieful si masele de aer"],
+      "explanation": "Latitudinea, relieful, masele de aer și apropierea față de Marea Neagră sunt factori importanți pentru climat."
+    },
+    {
+      "id": "geo-hidro-1",
+      "subject": "geografie",
+      "topics": ["geo-hidrografie"],
+      "kind": "single",
+      "stem": "Ce râu formează cea mai mare parte a graniței sudice a României?",
+      "choices": [
+        { "id": "a", "text": "Prut" },
+        { "id": "b", "text": "Dunărea" },
+        { "id": "c", "text": "Olt" },
+        { "id": "d", "text": "Siret" }
+      ],
+      "correctChoiceIds": ["b"],
+      "explanation": "Dunărea marchează granița sudică a României pe o distanță de peste 1000 km."
+    },
+    {
+      "id": "geo-hidro-2",
+      "subject": "geografie",
+      "topics": ["geo-hidrografie"],
+      "kind": "multiple",
+      "stem": "Selectează principalele utilizări ale bazinului hidrografic al Oltului.",
+      "choices": [
+        { "id": "a", "text": "Hidroenergie" },
+        { "id": "b", "text": "Irigare" },
+        { "id": "c", "text": "Transport maritim" },
+        { "id": "d", "text": "Aprovizionare cu apă pentru industrie" }
+      ],
+      "correctChoiceIds": ["a", "b", "d"],
+      "explanation": "Bazinul Oltului este folosit pentru hidroenergie, irigații și alimentarea industriei."
+    },
+    {
+      "id": "geo-pop-1",
+      "subject": "geografie",
+      "topics": ["geo-populatie"],
+      "kind": "single",
+      "stem": "Care este cel mai populat oraș din România?",
+      "choices": [
+        { "id": "a", "text": "Cluj-Napoca" },
+        { "id": "b", "text": "Iași" },
+        { "id": "c", "text": "Constanța" },
+        { "id": "d", "text": "București" }
+      ],
+      "correctChoiceIds": ["d"],
+      "explanation": "București este capitala și cel mai populat oraș al României."
+    },
+    {
+      "id": "geo-pop-2",
+      "subject": "geografie",
+      "topics": ["geo-populatie"],
+      "kind": "short",
+      "stem": "Menționează una dintre caracteristicile demografice actuale ale României.",
+      "correctShortAnswer": [
+        "imbatranirea populatiei",
+        "migrația externă ridicată",
+        "scaderea natalitatii",
+        "urbanizare moderata"
+      ],
+      "explanation": "România se confruntă cu îmbătrânirea populației, migrație externă și scăderea natalității."
+    },
+    {
+      "id": "geo-eco-1",
+      "subject": "geografie",
+      "topics": ["geo-economie"],
+      "kind": "single",
+      "stem": "Ce regiune concentrează industria IT și servicii avansate?",
+      "choices": [
+        { "id": "a", "text": "Banat" },
+        { "id": "b", "text": "Transilvania" },
+        { "id": "c", "text": "Dobrogea" },
+        { "id": "d", "text": "Oltenia" }
+      ],
+      "correctChoiceIds": ["b"],
+      "explanation": "Cluj-Napoca și alte centre din Transilvania concentrează hub-uri IT și servicii avansate."
+    },
+    {
+      "id": "geo-eco-2",
+      "subject": "geografie",
+      "topics": ["geo-economie"],
+      "kind": "multiple",
+      "stem": "Selectează resursele naturale importante pentru economia României.",
+      "choices": [
+        { "id": "a", "text": "Zăcăminte de sare" },
+        { "id": "b", "text": "Gaze naturale" },
+        { "id": "c", "text": "Cobalt" },
+        { "id": "d", "text": "Cărbune" }
+      ],
+      "correctChoiceIds": ["a", "b", "d"],
+      "explanation": "România dispune de resurse variate precum sare, gaze naturale, petrol și cărbune."
+    }
+  ],
+  "examPresets": [
+    {
+      "id": "geo-bac-model-2023",
+      "subject": "geografie",
+      "title": "Model BAC Geografie 2023",
+      "durationMinutes": 120,
+      "questionIds": ["geo-relief-1", "geo-relief-2", "geo-clima-1", "geo-clima-2", "geo-hidro-1", "geo-hidro-2", "geo-pop-1", "geo-pop-2", "geo-eco-1"],
+      "year": 2023,
+      "source": "Model oficial",
+      "structure": {
+        "subject1": {
+          "title": "Subiectul I",
+          "description": "Rezolvă itemii folosind harta alăturată.",
+          "mapImage": "assets/exams/geografie-subiect1-map.png",
+          "segments": [
+            {
+              "label": "A",
+              "prompt": "Precizați:",
+              "items": [
+                {
+                  "text": "1. Numele statului marcat pe hartă cu litera C.",
+                  "points": 4,
+                  "options": ["Germania", "Polonia", "Austria", "Țările de Jos"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Numele orașului-capitală marcat, pe hartă, cu numărul 10.",
+                  "points": 4,
+                  "options": ["Madrid", "Roma", "Paris", "Londra"],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "B",
+              "prompt": "Scrieți răspunsurile corecte care completează afirmațiile de mai jos:",
+              "items": [
+                {
+                  "text": "1. Orașul-capitală marcat, pe hartă, cu numărul 3 se numește...",
+                  "points": 2,
+                  "options": ["Londra", "Berlin", "Bruxelles", "Viena"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Fluviul Tamisa străbate orașul-capitală marcat, pe hartă, cu numărul ...",
+                  "points": 2,
+                  "options": ["3", "5", "7", "9"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "3. Statul marcat, pe hartă, cu litera A se numește...",
+                  "points": 2,
+                  "options": ["Portugalia", "Spania", "Grecia", "Franța"],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "C",
+              "prompt": "Scrieți doar litera (a, b, c sau d) corespunzătoare răspunsului corect:",
+              "items": [
+                {
+                  "text": "1. Orașul-capitală al statului marcat, pe hartă, cu litera F se numește...",
+                  "points": 2,
+                  "options": ["Amsterdam", "Berna", "Bruxelles", "Luxembourg"],
+                  "correctIndex": 2
+                },
+                {
+                  "text": "2. Orașul-capitală al statului marcat, pe hartă, cu litera I este străbătut de fluviul...",
+                  "points": 2,
+                  "options": ["Dunărea", "Pad", "Rin", "Sena"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "3. În statul marcat, pe hartă, cu litera B se află versantul sudic al Munților...",
+                  "points": 2,
+                  "options": ["Alpi", "Apenini", "Carpați", "Pirinei"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "4. Statul marcat, pe hartă, cu litera G se numește...",
+                  "points": 2,
+                  "options": ["Albania", "Bosnia și Herțegovina", "Croația", "Slovenia"],
+                  "correctIndex": 2
+                },
+                {
+                  "text": "5. Orașul-capitală marcat, pe hartă, cu numărul 12 se numește...",
+                  "points": 2,
+                  "options": ["Copenhaga", "Helsinki", "Oslo", "Stockholm"],
+                  "correctIndex": 3
+                }
+              ]
+            },
+            {
+              "label": "D",
+              "prompt": "Prezentați trei deosebiri între clima statului marcat, pe hartă, cu litera E și clima statului marcat, pe hartă, cu litera H.",
+              "items": [
+                {
+                  "text": "Se vor face comparații privind factorii genetici, tipul de climă, temperaturi, amplitudine termică, precipitații sau vânturi.",
+                  "points": 6,
+                  "options": [
+                    "Statul E are un climat nordic rece cu ierni lungi și precipitații abundente, iar statul H are un climat mediteranean cu veri calde și secetoase.",
+                    "Ambele state au același climat continental, cu diferențe minime de temperatură și precipitații.",
+                    "Statul E are precipitații reduse și veri foarte fierbinți, în timp ce statul H are ierni extrem de reci și umede.",
+                    "Statul E are climat deșertic, iar statul H are climat polar cu temperaturi negative tot anul."
+                  ],
+                  "correctIndex": 0
+                }
+              ],
+              "notes": [
+                "Deosebirile trebuie prezentate comparativ.",
+                "Se poate face referire la state folosind literele indicate."
+              ]
+            },
+            {
+              "label": "E",
+              "prompt": "Precizați numele a:",
+              "items": [
+                {
+                  "text": "1. Două orașe din statul marcat, pe hartă, cu litera D.",
+                  "points": 2,
+                  "options": [
+                    "Paris și Lyon",
+                    "Berlin și Hamburg",
+                    "Lisabona și Porto",
+                    "Oslo și Bergen"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Două unități de relief din statul marcat, pe hartă, cu litera D.",
+                  "points": 2,
+                  "options": [
+                    "Alpii și Câmpia Parisului",
+                    "Meseta Iberică și Sierra Nevada",
+                    "Câmpia Panonică și Munții Tatra",
+                    "Muntele Olimp și Insula Creta"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            }
+          ]
+        },
+        "subject2": {
+          "title": "Subiectul II",
+          "description": "Lucrează cu harta României pentru a identifica elemente geografice.",
+          "mapImage": "assets/exams/geografie-subiect2-map.png",
+          "segments": [
+            {
+              "label": "A",
+              "prompt": "Precizați:",
+              "items": [
+                {
+                  "text": "1. Numele orașului marcat, pe hartă, cu numărul 11.",
+                  "points": 2,
+                  "options": ["Galați", "Iași", "Constanța", "Cluj-Napoca"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Numele râului marcat, pe hartă, cu numărul 5.",
+                  "points": 2,
+                  "options": ["Someș", "Mureș", "Prut", "Argeș"],
+                  "correctIndex": 1
+                }
+              ]
+            },
+            {
+              "label": "B",
+              "prompt": "Completați corect afirmațiile de mai jos:",
+              "items": [
+                {
+                  "text": "1. Râul marcat, pe hartă, cu numărul 1 se numește...",
+                  "points": 2,
+                  "options": ["Tisa", "Bistrița", "Olt", "Siret"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Orașul marcat, pe hartă, cu numărul 10 se numește...",
+                  "points": 2,
+                  "options": ["Timișoara", "Brașov", "Cluj-Napoca", "Pitești"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "3. Munții Banatului reprezintă unitatea de relief marcată, pe hartă, cu litera...",
+                  "points": 2,
+                  "options": ["A", "B", "C", "D"],
+                  "correctIndex": 2
+                }
+              ]
+            },
+            {
+              "label": "C",
+              "prompt": "Alegeți varianta corectă:",
+              "items": [
+                {
+                  "text": "1. Orașul marcat, pe hartă, cu numărul 9 este străbătut de râul...",
+                  "points": 2,
+                  "options": ["Jijia", "Moldova", "Siret", "Suceava"],
+                  "correctIndex": 2
+                },
+                {
+                  "text": "2. În unitatea de relief marcată, pe hartă, cu litera E pătrund influențe climatice...",
+                  "points": 2,
+                  "options": ["continentale (de ariditate)", "oceanice", "pontice", "submediteraneene"],
+                  "correctIndex": 3
+                },
+                {
+                  "text": "3. Râul marcat, pe hartă, cu numărul 2 străbate orașul...",
+                  "points": 2,
+                  "options": ["Baia Mare", "Oradea", "Satu Mare", "Timișoara"],
+                  "correctIndex": 1
+                },
+                {
+                  "text": "4. În unitatea de relief marcată, pe hartă, cu litera A există resurse de...",
+                  "points": 2,
+                  "options": [
+                    "minereuri neferoase",
+                    "minereuri de aur și argint",
+                    "minereu de fier",
+                    "petrol și gaze naturale"
+                  ],
+                  "correctIndex": 1
+                },
+                {
+                  "text": "5. Orașul marcat, pe hartă, cu numărul 8 se numește...",
+                  "points": 2,
+                  "options": ["Craiova", "Râmnicu Vâlcea", "Slatina", "Târgu Jiu"],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "D",
+              "prompt": "Prezentați trei deosebiri între relieful unității marcate cu litera D și relieful unității marcate cu litera H.",
+              "items": [
+                {
+                  "text": "Selectați varianta care exprimă corect deosebirile:",
+                  "points": 6,
+                  "options": [
+                    "Unitatea D are relief montan fragmentat, în timp ce unitatea H este o câmpie joasă cu altitudini reduse și relief slab fragmentat.",
+                    "Ambele unități prezintă relief litoral cu plaje nisipoase și lagune.",
+                    "Unitatea D este o câmpie de acumulare, iar unitatea H reprezintă un podiș înalt cu culmi rotunjite.",
+                    "Unitatea D are relief de origine glaciară, iar unitatea H este dominată de vulcanism activ."
+                  ],
+                  "correctIndex": 0
+                }
+              ],
+              "notes": [
+                "Comparați elementele de relief pentru a evidenția diferențele."
+              ]
+            },
+            {
+              "label": "E",
+              "prompt": "Analizați factorii și așezările corespunzătoare:",
+              "items": [
+                {
+                  "text": "1. Modul în care un factor natural a contribuit la formarea unității de relief marcate cu litera C.",
+                  "points": 2,
+                  "options": [
+                    "Eroziunea exercitată de Dunăre a determinat fragmentarea masivului",
+                    "Depunerile eoliene au generat dune litorale înalte",
+                    "Activitatea vulcanică recentă a ridicat conuri şi platouri",
+                    "Glaciația cuaternară a sculptat văi în formă de U"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Două orașe cu peste 50.000 de locuitori situate în subunitatea de relief marcată cu litera B.",
+                  "points": 2,
+                  "options": [
+                    "Suceava și Bacău",
+                    "Sibiu și Alba Iulia",
+                    "Ploiești și Buzău",
+                    "Brăila și Tulcea"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            }
+          ]
+        },
+        "subject3": {
+          "title": "Subiectul III",
+          "description": "Analizează date statistice și exemple regionale pentru a argumenta răspunsurile.",
+          "mapImage": "assets/exams/geografie-subiect3-map.png",
+          "segments": [
+            {
+              "label": "A",
+              "prompt": "Precizați:",
+              "items": [
+                {
+                  "text": "1. Valoarea maximă a bilanțului natural și perioada în care s-a înregistrat.",
+                  "points": 2,
+                  "options": [
+                    "12‰ în perioada 1950-1955",
+                    "9‰ în perioada 1965-1970",
+                    "4‰ în perioada 1985-1990",
+                    "1‰ în perioada 2005-2010"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Valoarea minimă a bilanțului natural și perioada în care s-a înregistrat.",
+                  "points": 2,
+                  "options": [
+                    "-2‰ în perioada 1995-2000",
+                    "-0,5‰ în perioada 1975-1980",
+                    "0‰ în perioada 1960-1965",
+                    "3‰ în perioada 1955-1960"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "B",
+              "prompt": "Calculați și interpretați:",
+              "items": [
+                {
+                  "text": "1. Diferența dintre valoarea maximă și cea minimă a bilanțului natural din Europa este...",
+                  "points": 2,
+                  "options": ["14‰", "10‰", "7‰", "4‰"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Diferența dintre bilanțul natural din perioada 1965-1970 și cel din perioada 1985-1990 este...",
+                  "points": 2,
+                  "options": ["6‰", "4‰", "3‰", "1‰"],
+                  "correctIndex": 1
+                },
+                {
+                  "text": "3. Cauza care explică scăderea bilanțului natural din Europa după 1990 este...",
+                  "points": 2,
+                  "options": [
+                    "Creșterea migrației externe și a îmbătrânirii populației",
+                    "Explozia natalității în mediul rural",
+                    "Majorarea constantă a fertilității",
+                    "Reducerea speranței de viață"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "C",
+              "prompt": "Pentru Ungaria, precizați:",
+              "items": [
+                {
+                  "text": "1. Grupul corect de trei state vecine ale Ungariei.",
+                  "points": 3,
+                  "options": [
+                    "Austria, Slovacia, România",
+                    "Germania, Ucraina, Slovenia",
+                    "Croația, Italia, Serbia",
+                    "Cehia, Polonia, Bosnia și Herțegovina"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Două unități de relief reprezentative pentru Ungaria.",
+                  "points": 2,
+                  "options": [
+                    "Câmpia Panonică și Munții Mátra",
+                    "Munții Pădurea Neagră și Câmpia Rinului",
+                    "Munții Tatra și Podisul Podolic",
+                    "Carpații Meridionali și Câmpia Română"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "3. Două ape curgătoare care traversează Ungaria.",
+                  "points": 2,
+                  "options": ["Dunărea și Tisa", "Vistula și San", "Elba și Oder", "Loara și Sena"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "4. Grupul corect de trei orașe din Ungaria.",
+                  "points": 3,
+                  "options": [
+                    "Budapesta, Debrecen, Szeged",
+                    "Bratislava, Kosice, Győr",
+                    "Ljubljana, Zagreb, Pécs",
+                    "Cluj-Napoca, Arad, Târgu Mureș"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "D",
+              "prompt": "Utilizați date climatice pentru a argumenta răspunsurile:",
+              "items": [
+                {
+                  "text": "1. Amplitudinea termică medie anuală în orașul Paris este...",
+                  "points": 2,
+                  "options": ["15,1°C", "10,5°C", "8,3°C", "5,1°C"],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Amplitudinea termică medie anuală în orașul Kiev este...",
+                  "points": 2,
+                  "options": ["24,5°C", "18,7°C", "13,2°C", "9,9°C"],
+                  "correctIndex": 1
+                },
+                {
+                  "text": "3. Cauza diferenței dintre amplitudinile termice ale celor două orașe este...",
+                  "points": 2,
+                  "options": [
+                    "Influența oceanică mai puternică asupra climatului Parisului",
+                    "Altitudinea mult mai mare a Parisului",
+                    "Prezența Munților Alpi între cele două orașe",
+                    "Latitudinea mai sudică a Kievului"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            },
+            {
+              "label": "E",
+              "prompt": "Analizați factorii economici și naturali:",
+              "items": [
+                {
+                  "text": "1. Cauza suprafețelor mari cultivate cu cereale în Câmpia de Vest este...",
+                  "points": 2,
+                  "options": [
+                    "Solurile fertile de tip cernoziom și mecanizarea agriculturii",
+                    "Prezența masivă a terenurilor montane",
+                    "Climatul rece și umed pe tot parcursul anului",
+                    "Interdicția privind alte culturi agricole"
+                  ],
+                  "correctIndex": 0
+                },
+                {
+                  "text": "2. Cauza lipsei viețuitoarelor în stratul de adâncime al apelor Mării Negre este...",
+                  "points": 2,
+                  "options": [
+                    "Prezența apelor anoxice bogate în hidrogen sulfurat",
+                    "Temperaturile extrem de scăzute din sezonul rece",
+                    "Salinitatea redusă cauzată de aportul fluvial",
+                    "Curentul cald al Golfului care sporește evaporarea"
+                  ],
+                  "correctIndex": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "geo-bac-simulare-2022",
+      "subject": "geografie",
+      "title": "Simulare Națională 2022",
+      "durationMinutes": 120,
+      "questionIds": ["geo-relief-1", "geo-relief-3", "geo-clima-1", "geo-hidro-1", "geo-hidro-2", "geo-pop-1", "geo-eco-1", "geo-eco-2", "geo-pop-2"],
+      "year": 2022,
+      "source": "Simulare"
+    },
+    {
+      "id": "geo-bac-antrenament-2021",
+      "subject": "geografie",
+      "title": "Set antrenament 2021",
+      "durationMinutes": 120,
+      "questionIds": ["geo-relief-2", "geo-relief-3", "geo-clima-1", "geo-clima-2", "geo-hidro-1", "geo-pop-1", "geo-pop-2", "geo-eco-1", "geo-eco-2"],
+      "year": 2021,
+      "source": "Antrenament"
+    }
+  ]
+}

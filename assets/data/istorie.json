@@ -1,0 +1,235 @@
+{
+  "version": "1.1.0",
+  "topics": [
+    {
+      "id": "ist-marea-unire",
+      "subject": "istorie",
+      "title": "Marea Unire de la 1918",
+      "summary": "Etapele unirii și contextul internațional după Primul Război Mondial.",
+      "contentMdPath": "assets/content/ist/marea-unire.md",
+      "tags": ["România Mare", "Unire", "1918"]
+    },
+    {
+      "id": "ist-ev-mediu",
+      "subject": "istorie",
+      "title": "Statele medievale românești",
+      "summary": "Constituirea și evoluția Țărilor Române în Evul Mediu.",
+      "contentMdPath": "assets/content/ist/ev-mediu.md",
+      "tags": ["Evul Mediu", "Țara Românească", "Moldova"]
+    },
+    {
+      "id": "ist-revolutie-1848",
+      "subject": "istorie",
+      "title": "Revoluția de la 1848",
+      "summary": "Programul revoluționar și principalele momente din Țările Române.",
+      "contentMdPath": "assets/content/ist/revolutie-1848.md",
+      "tags": ["Revoluție", "1848", "Program"]
+    },
+    {
+      "id": "ist-modernizare",
+      "subject": "istorie",
+      "title": "Modernizarea României în secolul XIX",
+      "summary": "Reformele politice, sociale și economice din a doua jumătate a secolului XIX.",
+      "contentMdPath": "assets/content/ist/modernizare.md",
+      "tags": ["Reforme", "Carol I", "Independență"]
+    },
+    {
+      "id": "ist-comunism",
+      "subject": "istorie",
+      "title": "România în perioada comunistă",
+      "summary": "Evoluția regimului comunist între 1947 și 1989.",
+      "contentMdPath": "assets/content/ist/comunism.md",
+      "tags": ["Comunism", "Industrializare", "1989"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ist-unire-1",
+      "subject": "istorie",
+      "topics": ["ist-marea-unire"],
+      "kind": "single",
+      "stem": "În ce oraș a fost proclamată Unirea Transilvaniei cu România?",
+      "choices": [
+        { "id": "a", "text": "Iași" },
+        { "id": "b", "text": "București" },
+        { "id": "c", "text": "Chișinău" },
+        { "id": "d", "text": "Alba Iulia" }
+      ],
+      "correctChoiceIds": ["d"],
+      "explanation": "Marea Adunare Națională de la Alba Iulia din 1 decembrie 1918 a proclamat Unirea Transilvaniei."
+    },
+    {
+      "id": "ist-unire-2",
+      "subject": "istorie",
+      "topics": ["ist-marea-unire"],
+      "kind": "multiple",
+      "stem": "Selectează provinciile care s-au unit cu România în 1918.",
+      "choices": [
+        { "id": "a", "text": "Transilvania" },
+        { "id": "b", "text": "Banatul" },
+        { "id": "c", "text": "Basarabia" },
+        { "id": "d", "text": "Dobrogea de Sud" }
+      ],
+      "correctChoiceIds": ["a", "b", "c"],
+      "explanation": "În 1918 s-au unit cu România Basarabia (martie), Bucovina (noiembrie) și Transilvania împreună cu Banatul (decembrie)."
+    },
+    {
+      "id": "ist-unire-3",
+      "subject": "istorie",
+      "topics": ["ist-marea-unire"],
+      "kind": "short",
+      "stem": "Numește o personalitate politică ce a susținut Marea Unire.",
+      "correctShortAnswer": [
+        "iuliu maniu",
+        "vasile goldis",
+        "take ionescu",
+        "ion i c bratianu",
+        "patrascu porumbescu"
+      ],
+      "explanation": "Lideri politici precum Iuliu Maniu, Vasile Goldiș sau Ion I.C. Brătianu au sprijinit Unirea."
+    },
+    {
+      "id": "ist-ev-mediu-1",
+      "subject": "istorie",
+      "topics": ["ist-ev-mediu"],
+      "kind": "single",
+      "stem": "În ce an a avut loc bătălia de la Posada?",
+      "choices": [
+        { "id": "a", "text": "1330" },
+        { "id": "b", "text": "1475" },
+        { "id": "c", "text": "1526" },
+        { "id": "d", "text": "1600" }
+      ],
+      "correctChoiceIds": ["a"],
+      "explanation": "Bătălia de la Posada din 1330 a consolidat independența Țării Românești."
+    },
+    {
+      "id": "ist-ev-mediu-2",
+      "subject": "istorie",
+      "topics": ["ist-ev-mediu"],
+      "kind": "multiple",
+      "stem": "Selectează domnitori ai Moldovei care au contribuit la consolidarea statului.",
+      "choices": [
+        { "id": "a", "text": "Ștefan cel Mare" },
+        { "id": "b", "text": "Alexandru cel Bun" },
+        { "id": "c", "text": "Matei Basarab" },
+        { "id": "d", "text": "Petru Rareș" }
+      ],
+      "correctChoiceIds": ["a", "b", "d"],
+      "explanation": "Ștefan cel Mare, Alexandru cel Bun și Petru Rareș au consolidat Moldova prin reforme și victorii militare."
+    },
+    {
+      "id": "ist-revolutie-1848-1",
+      "subject": "istorie",
+      "topics": ["ist-revolutie-1848"],
+      "kind": "single",
+      "stem": "Ce document a sintetizat revendicările revoluționarilor munteni în 1848?",
+      "choices": [
+        { "id": "a", "text": "Proclamația de la Islaz" },
+        { "id": "b", "text": "Memorandumul Unirii" },
+        { "id": "c", "text": "Declarația de la Alba Iulia" },
+        { "id": "d", "text": "Actul de la 24 Ianuarie" }
+      ],
+      "correctChoiceIds": ["a"],
+      "explanation": "Proclamația de la Islaz (9 iunie 1848) a enumerat principalele revendicări ale românilor din Țara Românească."
+    },
+    {
+      "id": "ist-revolutie-1848-2",
+      "subject": "istorie",
+      "topics": ["ist-revolutie-1848"],
+      "kind": "short",
+      "stem": "Numește un lider al Revoluției de la 1848 din Transilvania.",
+      "correctShortAnswer": ["avram iancu", "simion barnutiu", "george baritiu"],
+      "explanation": "Avram Iancu, Simion Bărnuțiu și George Barițiu au condus mișcarea națională din Transilvania."
+    },
+    {
+      "id": "ist-modernizare-1",
+      "subject": "istorie",
+      "topics": ["ist-modernizare"],
+      "kind": "single",
+      "stem": "În ce an a obținut România independența față de Imperiul Otoman?",
+      "choices": [
+        { "id": "a", "text": "1859" },
+        { "id": "b", "text": "1866" },
+        { "id": "c", "text": "1877" },
+        { "id": "d", "text": "1918" }
+      ],
+      "correctChoiceIds": ["c"],
+      "explanation": "România și-a proclamat independența în timpul războiului din 1877-1878."
+    },
+    {
+      "id": "ist-modernizare-2",
+      "subject": "istorie",
+      "topics": ["ist-modernizare"],
+      "kind": "multiple",
+      "stem": "Selectează reformele importante ale domniei lui Alexandru Ioan Cuza.",
+      "choices": [
+        { "id": "a", "text": "Reforma agrară" },
+        { "id": "b", "text": "Reforma învățământului" },
+        { "id": "c", "text": "Constituția de la 1923" },
+        { "id": "d", "text": "Secularizarea averilor mănăstirești" }
+      ],
+      "correctChoiceIds": ["a", "b", "d"],
+      "explanation": "Reformele lui Cuza au vizat proprietatea agricolă, modernizarea învățământului și secularizarea averilor mănăstirești."
+    },
+    {
+      "id": "ist-comunism-1",
+      "subject": "istorie",
+      "topics": ["ist-comunism"],
+      "kind": "single",
+      "stem": "Cine a condus România în perioada 1965-1989?",
+      "choices": [
+        { "id": "a", "text": "Gheorghe Gheorghiu-Dej" },
+        { "id": "b", "text": "Nicolae Ceaușescu" },
+        { "id": "c", "text": "Ion Iliescu" },
+        { "id": "d", "text": "Petru Groza" }
+      ],
+      "correctChoiceIds": ["b"],
+      "explanation": "Nicolae Ceaușescu a condus România între 1965 și 1989."
+    },
+    {
+      "id": "ist-comunism-2",
+      "subject": "istorie",
+      "topics": ["ist-comunism"],
+      "kind": "multiple",
+      "stem": "Selectează caracteristici ale regimului comunist în România.",
+      "choices": [
+        { "id": "a", "text": "Planificarea economică centralizată" },
+        { "id": "b", "text": "Pluralism politic" },
+        { "id": "c", "text": "Cultul personalității" },
+        { "id": "d", "text": "Industrializare forțată" }
+      ],
+      "correctChoiceIds": ["a", "c", "d"],
+      "explanation": "Regimul comunist a impus planificare centralizată, industrializare accelerată și cultul personalității liderului."
+    }
+  ],
+  "examPresets": [
+    {
+      "id": "ist-bac-model-2023",
+      "subject": "istorie",
+      "title": "Model BAC Istorie 2023",
+      "durationMinutes": 180,
+      "questionIds": ["ist-unire-1", "ist-unire-2", "ist-unire-3", "ist-ev-mediu-1", "ist-ev-mediu-2", "ist-revolutie-1848-1", "ist-revolutie-1848-2", "ist-modernizare-1", "ist-modernizare-2"],
+      "year": 2023,
+      "source": "Model oficial"
+    },
+    {
+      "id": "ist-bac-simulare-2022",
+      "subject": "istorie",
+      "title": "Simulare Națională 2022",
+      "durationMinutes": 180,
+      "questionIds": ["ist-unire-1", "ist-ev-mediu-1", "ist-ev-mediu-2", "ist-revolutie-1848-1", "ist-revolutie-1848-2", "ist-modernizare-1", "ist-modernizare-2", "ist-comunism-1", "ist-comunism-2"],
+      "year": 2022,
+      "source": "Simulare"
+    },
+    {
+      "id": "ist-bac-antrenament-2021",
+      "subject": "istorie",
+      "title": "Set antrenament 2021",
+      "durationMinutes": 180,
+      "questionIds": ["ist-unire-2", "ist-unire-3", "ist-ev-mediu-1", "ist-modernizare-1", "ist-modernizare-2", "ist-revolutie-1848-1", "ist-revolutie-1848-2", "ist-comunism-1", "ist-comunism-2"],
+      "year": 2021,
+      "source": "Antrenament"
+    }
+  ]
+}
